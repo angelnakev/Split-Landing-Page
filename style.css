@@ -13,7 +13,7 @@
     --speed: 1000ms;
 }
 
-*, body {
+html, body {
     margin: 0;
     padding: 0;
     font-family: 'Inter', sans-serif;
@@ -48,4 +48,14 @@ h1 {
     text-transform: uppercase;
     text-decoration: none;
     transform: translateX(-50%);
+}
+
+.split.left .button:hover {
+    background-color: var(--left-btn-hover-color);
+    border-color: var(--left-btn-hover-color);
+}
+
+.split.left .button:hover {
+    background-color: var(--right-btn-hover-color);
+    border-color: var(--left-btn-hover-color);
 }
