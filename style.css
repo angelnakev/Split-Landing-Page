@@ -1,0 +1,12 @@
+:root {
+    --container-bg-color: #333;
+    --left-bg-color: rgba(58, 37, 112, 0.7);
+    --left-btn-hover-color: rgba(40, 25, 77, 0.3);
+    --right-bg-color: rgba(42, 128, 128, 0.8);
+    --right-btn-hover-color: rgba(20, 61, 61, 0.3);
+
+    --hover-width: 75%;
+    --other-width: 25%;
+
+    --speed: 1000ms;
+}
