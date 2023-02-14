@@ -109,3 +109,15 @@ h1 {
 .split.left:before {
   transition: var(--speed) all ease-in-out;
 }
+
+.hover-left .left {
+  width: var(--hover-width);
+}
+
+.hover-left .right {
+  width: var(--other-width);
+}
+
+.hover-left .right:before {
+  z-index: 2;
+}
