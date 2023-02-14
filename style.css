@@ -24,7 +24,7 @@ body {
 }
 
 h1 {
-  font-size: 4rem;
+  font-size: 2.5rem;
   color: #fff;
   position: absolute;
   left: 50%;
@@ -56,7 +56,7 @@ h1 {
   border-color: var(--left-btn-hover-color);
 }
 
-.split.left .button:hover {
+.split.right .button:hover {
   background-color: var(--right-btn-hover-color);
   border-color: var(--left-btn-hover-color);
 }
